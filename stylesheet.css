@@ -1,0 +1,163 @@
+.header,
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px 12px 48px;
+}
+
+/* Logo text in header */
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Main text in first card */
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+/* Secondary text in first card */
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.card-one {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+    gap: 80px;
+}
+
+.card-one .left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-one .right {
+    width: 800px;
+    height: auto;
+}
+
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 56px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.illustration-image {
+    max-width: 200px;
+    border-radius: 15px;
+}
+
+.illustration-text {
+    color: #1F2421;
+    max-width: 200px;
+}
+
+.card-three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 140px 320px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-three .quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.card-three .sign {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.card-four {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card-four .modal {
+    border-radius: 8px;
+    padding: 40px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.card-four .modal-text {
+    color: white;
+}
+
+.card-four .modal-title {
+    font-weight: bold;
+}
+
+.card-four button {
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 32px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 5px;
+    align-self: baseline;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
